@@ -9,7 +9,7 @@ html,body { height:100%;
 body{ 
   background-color:#98878F;
   color:#C0B3A0;
-  font-family: 'Roboto Condensed', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
   margin:0px;
 
  }
