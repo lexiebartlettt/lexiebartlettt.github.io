@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
 
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai');
+@import url("https://fonts.googleapis.com/css?family=Lato");
 
 * { margin: 0; padding: 0; border: none; }
 html,body { height:100%;
@@ -9,7 +9,7 @@ html,body { height:100%;
 body{ 
   background-color:#98878F;
   color:#C0B3A0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin:0px;
 
  }
@@ -29,6 +29,7 @@ div.top h1{
    font-size: 350%;
    padding-top:30px;
    padding-left:230px;
+   font-family: 'Roboto Condensed', sans-serif;
    font-weight: bold;
    color:#192231;
    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
@@ -85,10 +86,12 @@ div.top h1{
 }
 #About h2{ 
   text-decoration: underline;
+  font-family: 'Roboto Condensed', sans-serif;
+
 
 } 
 #About h3{ 
-  font-style: italic;
+    font-family: 'Lato', sans-serif;
 }
 #intro{ 
     padding-right:400px;
