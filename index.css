@@ -23,3 +23,73 @@ div.top{
   height: 150px;
 
 }
+
+
+div.top h1{ 
+   font-size: 350%;
+   padding-top:30px;
+   padding-left:230px;
+   font-weight: bold;
+   color:#192231;
+   text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
+.mypicture{ 
+  background:url('lexie.jpg')no-repeat;
+  background-size:300px;
+    width:200px;
+    height:350px;
+    float: right;
+    border: 3px solid #C0B3A0;
+    border-radius: 20px;
+    padding-right:100px;
+    margin-right:100px;
+    margin-top:100px;
+}
+
+.sidenav{
+  position:absolute;
+    left:0px; top:190px; bottom: 0;
+    width: 180px;
+    background-color:#494E6B;
+    height: 100%;
+    text-align:left;
+    padding-top:15px;
+    padding-left:22px;
+    padding-right: 8px;
+    border-radius: 12px;
+    border: 1px solid #C0B3A0;;
+    padding: 5px;
+}
+.sidenav h3{  
+  text-decoration: underline;
+  text-align:left;
+  font-size: 100%;
+  padding-left:0px;
+  padding-top:10px;
+
+}
+.sidenav a:link {
+    color:#C0B3A0;
+}
+.sidenav a:visited {
+    color:#2F675E ;
+}
+#About{ 
+  position: absolute;
+    left:240px; 
+    top:210px; 
+    right:0; 
+    bottom:0;
+    color:#192231;
+}
+#About h2{ 
+  text-decoration: underline;
+
+} 
+#About h3{ 
+  font-style: italic;
+}
+#intro{ 
+    padding-right:400px;
+}
