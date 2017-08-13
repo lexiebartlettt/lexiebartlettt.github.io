@@ -11,19 +11,21 @@ html,body { height:100%;
   }
 body{ 
   background-color:#ffffff;
-  color:#C0B3A0;
+  color:#ffffff;
   margin:0px;
 
  }
 div.top{ 
   /*background-color:#494E6B;*/
   background:url('mountain.jpg');
-  background-size: 300px 150px;
+  background-size: 1600px 200px;
   text-align: left;
   max-width: 100%;
   margin:30px;
   padding:0px;
   height: 150px;
+  border-radius: 12px;
+  border: 3px solid #bbb7ce;
 
 }
 
@@ -31,7 +33,7 @@ div.top{
 div.top h1{ 
    font-size: 350%;
    padding-top:30px;
-   padding-left:230px;
+   padding-left:30px;
    font-family: 'Roboto Condensed', sans-serif;
    font-weight: bold;
    color:#192231;
@@ -44,7 +46,7 @@ div.top h1{
     width:200px;
     height:350px;
     float: right;
-    border: 3px solid #C0B3A0;
+    border: 3px solid #bbb7ce;
     border-radius: 20px;
     padding-right:100px;
     margin-right:100px;
@@ -53,31 +55,63 @@ div.top h1{
 
 .sidenav{
   position:absolute;
-    left:0px; top:190px; bottom: 0;
+    left:30px; top:190px; bottom: 0;
     width: 180px;
     background-color:#bbb7ce;
     height: 100%;
     text-align:left;
-    padding-top:15px;
-    padding-left:22px;
+    padding-top:30px;
+    padding-left:60px;
     padding-right: 8px;
     border-radius: 12px;
-    border: 1px solid #C0B3A0;;
+    border: 1px solid #ffffff;
     padding: 5px;
+    bottom:0;
+}
+
+.sidenav img{
+    padding-top:30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.sidenav h2{
+  padding-top:10px;
+  padding-left:30px;
+  font-size: 200%;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:black;
 }
 .sidenav h3{  
-  text-decoration: underline;
   text-align:left;
-  font-size: 100%;
-  padding-left:0px;
+  font-weight: bold;
+  font-size: 120%;
+  padding-left:10px;
   padding-top:10px;
+  color:black;
 
 }
+.sidenav li{
+  color:  white;
+  font-size:80%;
+  padding-left:0px;
+  line-height: 25px;
+
+}
+.sidenav ul{
+  padding-left:30px;
+}
 .sidenav a:link {
-    color:#C0B3A0;
+    color:#ffffff;
 }
 .sidenav a:visited {
     color:#2F675E ;
+}
+.sidenav p{
+  line-height:25px;
+  color: white;
+  font-size:80%;
+  padding-left:10px;
 }
 #About{ 
   position: absolute;
@@ -91,6 +125,7 @@ div.top h1{
   text-decoration: underline;
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 60px;
+  color:#6A6295;
 
 
 
@@ -98,6 +133,10 @@ div.top h1{
 #About h3{ 
     font-family: 'Lato', sans-serif;
 }
-#intro{ 
-    padding-right:400px;
+#About h4{
+  color:#6A6295;
+}
+
+#About a{
+    color:#6A6295;
 }
